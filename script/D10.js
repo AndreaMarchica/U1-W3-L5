@@ -212,6 +212,14 @@ howManyDays();
 /* ESERCIZIO 10
   Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
 */
+const mybirthday = Date(2, 1)
+const isTodayMyBirthday = function (){
+  if (Date === mybirthday) {
+    console.log('Happy Bday!')
+  }
+  else console.log('Today is not your Bday')
+}
+isTodayMyBirthday()
 
 // Arrays & Oggetti
 
@@ -426,9 +434,13 @@ searchByTitle("Avengers: Age of Ultron");
   "match" deve includere tutti i film dell'array "movies" fornito che contengono la stringa fornita all'interno del proprio titolo, mentre "unmatch" deve includere tutti i rimanenti.
 */
 
+
+
 /* ESERCIZIO 19
   Scrivi una funzione chiamata "removeIndex" che riceve un numero come parametro e ritorna l'array "movies" fornito privo dell'elemento nella posizione ricevuta come parametro.
 */
+
+
 
 // DOM (nota: gli elementi che selezionerai non si trovano realmente nella pagina)
 
